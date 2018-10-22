@@ -10,18 +10,14 @@ body {
 
 .container {
   margin: 0px auto;
-  width: 80%;
+  width: 420px;
 }
 
 nav {
   background-color: #000000;
   margin: 0px auto;
   padding: 10px 0 15px 15px;
-  width: 80%;
-}
-
-.restaurant-list {
-  display: inline;
+  width: 420px;
 }
 
 .location {
@@ -34,12 +30,12 @@ nav {
   background-color: grey;
 }
 
-.content h1 {
+h1 {
   font-size: 18px;
   font-weight: bold;
 }
 
-.content h3 {
+h3 {
   font-size: 13px;
   line-height: 1.5em;
 }
@@ -53,5 +49,5 @@ nav {
 .arrow {
   width: 10%;
   padding: 5%;
-  display: inline-block;
+  float: right;
 }
